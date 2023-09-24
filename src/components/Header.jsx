@@ -40,7 +40,8 @@ function Header() {
 
           <Typography
             theme={theme}
-            variant="h6"
+            variant="h5"
+            fontFamily={"Poppins"}
             component="div"
             sx={{ flexGrow: 1 }}
             color="primary"
@@ -48,7 +49,14 @@ function Header() {
             Allergic Mania
           </Typography>
           <Button theme={theme} color="primary">
-            Login
+            <strong style={{ fontFamily: "Poppins", fontSize: "3vh" }}>
+              SIGNIN
+            </strong>
+          </Button>
+          <Button theme={theme} color="primary">
+            <strong style={{ fontFamily: "Poppins", fontSize: "3vh" }}>
+              SIGNUP
+            </strong>
           </Button>
         </Toolbar>
       </AppBar>

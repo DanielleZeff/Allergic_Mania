@@ -41,7 +41,7 @@ function SignIn() {
               marginRight: "auto",
             }}
           >
-            <Input placeholder="Digite o seu nome..."></Input>
+            <Input placeholder="  Digite o seu nome..."></Input>
           </div>
           <div
             style={{
@@ -62,7 +62,7 @@ function SignIn() {
               marginRight: "auto",
             }}
           >
-            <Input placeholder="Digite a sua senha..."></Input>
+            <Input placeholder="  Digite a sua senha..."></Input>
           </div>
           <div
             style={{
