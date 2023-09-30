@@ -11,19 +11,19 @@ export const ContainerBackground = styled.div`
 
 export const ContainerSignIn = styled.div`
   width: 40%;
-  height: 60%;
+  height: 65%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12%;
+  margin-top: 6.8%;
   border-radius: 5%;
   background-color: #2a0134;
   display: flex;
   @media (max-width: 768px) {
     width: 60%;
-    height: 60%;
+    height: 65%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12%;
+    margin-top: 16%;
     border-radius: 5%;
     background-color: #2a0134;
     display: flex;

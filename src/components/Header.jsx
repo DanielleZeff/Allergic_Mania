@@ -3,6 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import React from "react";
 import { createTheme } from "@mui/material/styles";
 import { ContainerBackground } from "../pages/signin/styles";
+import { Link } from "react-router-dom";
 
 const theme = createTheme({
   palette: {
@@ -48,10 +49,18 @@ function Header() {
           >
             Allergic Mania
           </Typography>
-          <Button theme={theme} color="primary">
-            <strong style={{ fontFamily: "Poppins", fontSize: "3vh" }}>
-              SIGNIN
-            </strong>
+          <Button>
+            <Link
+              to="/"
+              style={{
+                fontFamily: "Poppins",
+                fontSize: "3vh",
+                textDecoration: "none",
+                color: "#FF59BD",
+              }}
+            >
+              <strong>SIGNIN</strong>
+            </Link>
           </Button>
           <Button theme={theme} color="primary">
             <strong style={{ fontFamily: "Poppins", fontSize: "3vh" }}>
